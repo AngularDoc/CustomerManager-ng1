@@ -1,0 +1,22 @@
+{
+  "name": "customer-manager-client",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.10",
+    "angular-animate": "^1.6.10",
+    "angular-route": "^1.6.10",
+    "breeze-client": "^1.7.1",
+    "gsap": "^1.20.4",
+    "angular-bootstrap": "^2.5.0"
+  }
+}
