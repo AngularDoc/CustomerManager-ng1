@@ -2,3 +2,7 @@ client/bower_components
 client/node_modules
 server/node_modules
 data
+
+# System Files
+.DS_Store
+Thumbs.db
