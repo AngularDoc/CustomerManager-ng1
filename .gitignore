@@ -1,4 +1,5 @@
 client/bower_components
+client/Scripts
 client/node_modules
 server/node_modules
 data
