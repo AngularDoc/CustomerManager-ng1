@@ -215,6 +215,10 @@ a.navbar-brand {
     color: #fff;
 }
 
+.navbar-brand > img {
+    display: inline-block;;
+}
+
 .navbar-inner {
     padding-left: 0px;
     -webkit-border-radius: 0px;
