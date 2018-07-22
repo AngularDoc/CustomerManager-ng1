@@ -1,0 +1,21 @@
+# Run docker-compose build
+# Run docker-compose up
+# Live long and prosper
+
+version: '3.1'
+
+services:
+
+  db-seed:
+    container_name: db-seed
+    image: mongo
+    volumes:
+      - ./server:/tmp/db-seed
+    command:
+      'bash -c "mongo --host db /tmp/db-seed/initMongoData.js"'
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
