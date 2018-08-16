@@ -2,6 +2,8 @@
 ===============
 This repo was adapted from https://github.com/DanWahlin/CustomerManagerStandard, for the purpose of demonstrating the AngularJS migration using Angular Copilot.
 
+Please make sure that Docker is installed on your machine since we will use it to launch the web application and the REST service.
+
 * Open a command prompt and navigate to the CustomerManager/server directory
 * Run `npm install`
 * Navigate to the CustomerManager/client directory
